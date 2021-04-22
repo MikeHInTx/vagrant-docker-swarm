@@ -6,14 +6,13 @@ This repository contains the necessary script files to setup a local Docker swar
 
 The script will generate virtual machines using Ubuntu 20.04 and the latest version of Docker Community Edition.
 
-## Requirements
-
-The following resources are required to implement this vagrant script.
+## Resources
 
 These scripts make use of the following resources:
 + [vagrant](https://www.vagrantup.com/)
 + [vagrant-hostmanager plug-in](https://github.com/devopsgroup-io/vagrant-hostmanager)
 + [VirutalBox](https://www.virtualbox.org/)
++ [Docker](https://www.docker.com/)
 
 ## Usage
 
