@@ -20,7 +20,7 @@ How to run the script initially:
 ```
     git clone https://github.com/MikeHInTx/vagrant-docker-swarm.git
     cd vagrant-docker-swarm
-	vagrant up
+    vagrant up
 ```
 To add a node:
 Change value of *NodeCount* in *VagrantFile*
