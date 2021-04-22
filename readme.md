@@ -16,8 +16,21 @@ These scripts make use of the following resources:
 
 ## Usage
 
-How to run the script:
-
+How to run the script initially:
+```
     git clone https://github.com/MikeHInTx/vagrant-docker-swarm.git
     cd vagrant-docker-swarm
 	vagrant up
+```
+To add a node:
+Change value of *NodeCount* in *VagrantFile*
+```
+    vagrant up
+```
+To destroy cluster
+```
+    vagrant destroy -f
+```
+
+### Note
+*This is not for production use. It is designed for development, testing, and training purposes.*
